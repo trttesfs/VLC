@@ -1,3 +1,5 @@
+local BuildInfo = { VersionType = function() return "Beta" end }
+
 if game.CoreGui:FindFirstChild("Neverlose1") then
     game.CoreGui.Neverlose1:Destroy()
 end
