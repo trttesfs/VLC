@@ -1505,7 +1505,7 @@ function Neverlose_Main:Window(config)
     VersionText.Font = Enum.Font.GothamBold
     VersionText.Text = "Version: <font color='rgb(9, 174, 255)'>"..BuildInfo:VersionType().."</font>"
     VersionText.TextColor3 = Color3.fromRGB(255, 255, 255)
-    VersionText.TextSize = 14.000
+   
     VersionText.TextXAlignment = Enum.TextXAlignment.Left
     VersionText.RichText = true
     
